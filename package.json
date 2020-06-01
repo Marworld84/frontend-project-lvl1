@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "frontend-project-lvl1": "brain-games.js"
-  },
-  "bin": {
+    "frontend-project-lvl1": "brain-games.js",
     "brain-games": "bin/brain-games.js"
-  },
-  "type": "module"
   },
   "dependencies": {
     "lodash": "^4.17.15"
