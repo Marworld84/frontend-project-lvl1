@@ -6,6 +6,9 @@
   "bin": {
     "frontend-project-lvl1": "brain-games.js"
   },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "type": "module"
   },
   "dependencies": {
