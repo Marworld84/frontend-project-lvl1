@@ -2,13 +2,14 @@
   "name": "frontend-project-lvl1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
     "frontend-project-lvl1": "brain-games.js",
     "brain-games": "bin/brain-games.js"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {},
   "scripts": {
@@ -24,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/Marworld84/frontend-project-lvl1/issues"
   },
+ "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  }, 
   "homepage": "https://github.com/Marworld84/frontend-project-lvl1#readme"
 }
