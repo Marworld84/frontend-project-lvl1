@@ -12,8 +12,10 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1"
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
