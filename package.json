@@ -5,7 +5,8 @@
   "main": "./index.js",
   "bin": {
     "frontend-project-lvl1": "brain-games.js",
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "dependencies": {
     "lodash": "^4.17.15",
