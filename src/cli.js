@@ -11,13 +11,12 @@ export const checkResponse = (str, num) => {
   }
   if (num % 2 === 0 && str !== 'yes') {
     return '"no" is wrong answer ;(. Correct answer was "yes"';
-  } else {
-    return '"yes" is wrong answer ;(. Correct answer was "no"';
   }
+  return '"yes" is wrong answer ;(. Correct answer was "no"';
 };
 export const checkCorrect = (str) => {
   if (str === 'Correct') {
     return 'Congratulations!';
   }
+  return false;
 };
-
