@@ -16,7 +16,11 @@ export const checkResponse = (str, num) => {
 };
 export const checkCorrect = (str) => {
   if (str === 'Correct') {
+    console.log(`Question: ${randomNumber2}`);
+    console.log(checkResponse(dialogue('Your answer: '), randomNumber2));
+    console.log(`Question: ${randomNumber3}`);
+    console.log(checkResponse(dialogue('Your answer: '), randomNumber3));
     return 'Congratulations!';
   }
-  return false;
+  return "Let's try again!";
 };
